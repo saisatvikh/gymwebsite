@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}   
+body::before{
+    opacity: 0.5;
+    content: "";
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background: url("https://media1.popsugar-assets.com/files/thumbor/7NvXrUxR1XBjpYeKPhI-ywNH63g/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/05/14/030/n/1922729/6978f89d348efe66_ClassPass_Zoom-background_4/i/Weightlifting-Gym-Zoom-Background.jpg") no-repeat center center;
+}
+nav{
+    display: flex;
+    background-color:rgb(250, 9, 49);
+}
+h2{
+    color:rgb(7, 102, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+li{
+    text-decoration: none;
+    padding:20px;
+    list-style:none;
+    position: relative;
+    left:0px;
+    border-right: 2px solid green;
+}
+li:hover{
+    background-color:orange;
+}
+.container{
+    position:absolute;
+    left:0px;
+    top:80px;
+    width: 100%;
+    text-align: center;
+    /*opacity: 0.7*/;
+}
+a{
+    color:green;
+    text-decoration: none;
+}
+a:hover,a:active{
+    color: orange;
+    background-color: green;
+}
+input,textarea{
+    width:75%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:5px;
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#btn{
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border:2px solid pink;
+    text-shadow:20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

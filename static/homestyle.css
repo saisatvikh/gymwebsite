@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-image: url("https://media1.popsugar-assets.com/files/thumbor/7NvXrUxR1XBjpYeKPhI-ywNH63g/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/05/14/030/n/1922729/6978f89d348efe66_ClassPass_Zoom-background_4/i/Weightlifting-Gym-Zoom-Background.jpg");
+}
+.left{
+    border: 2px solid green ;
+    color:orange;
+    position:relative;
+    display: inline-block;
+    left: 75px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+.mid{
+    border: 2px solid red;
+    color: white;
+    position: relative;
+    display: inline-block;
+    left:282px;
+}
+.right{
+    border: 2px solid yellow;
+    color: white;
+    position: absolute;
+    display: inline-block;  
+    position: relative; 
+    left:681px;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(125, 240, 125);
+    padding-right:30px;
+    padding-left:20px;    
+}
+li a:hover,a:active{
+    color: rgb(241, 167, 6);
+    text-decoration:underline rgb(250, 9, 49);
+}
+li{
+    display:inline-block;
+}
+.btn{
+    cursor:pointer;
+    color:black;
+    background-color: rgb(243, 18, 104);
+}
+header {
+    background-color: rgb(243, 18, 104);
+}
+#q{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;   
+}
+#w{
+    font-size:75px;
+    color:rgb(243, 18, 104);
+    position:absolute;
+    left: 435px;
+    top:244px;
+}
+#e{
+    position: absolute;
+    left: 612px;
+    top: 211px;
+    color:rgb(90, 57, 57);
+}
+#r{
+    background-color: rgb(243, 18, 104);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    position: absolute;
+    left:703px;
+    top:334px;
+}
+#s{
+    position: absolute;
+    right:195px;
+    height:66px;
+    width:69px;
+    bottom: 0px;
+}
+#m1{
+    border:2px solid hotpink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display:inline-block;
+    position: relative;
+    width:209px;
+    color:rgb(90, 57, 57);
+    top: 236px;
+    left:315px;
+}
+#l1{
+    color:rgb(243, 18, 104);
+    font-weight: bolder;
+}
+#m2{
+    border:2px solid hotpink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display:inline-block;
+    position: relative;
+    width:209px;
+    color:rgb(90, 57, 57);
+    top: 236px;
+    left: 770px;
+}
+#l2{
+    color:rgb(243, 18, 104);
+    font-weight: bolder;
+}
+#m3{
+    border:2px solid hotpink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display:inline-block;
+    position: relative;
+    width:209px;
+    color:rgb(90, 57, 57);
+    top: 445px;
+    left:-115px;
+}
+#l3{
+    color:rgb(243, 18, 104);
+    font-weight: bolder;
+}
+#m4{
+    border:2px solid hotpink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display:inline-block;
+    position: relative;
+    width:209px;
+    color:rgb(90, 57, 57);
+    top: 444px;
+    left:345px;
+}
+#l4{
+    color:rgb(243, 18, 104);
+    font-weight: bolder;
+}
+#i1{
+    width:71px;
+    height:92px;
+    position: absolute;
+    top:-2px;
+    left:-73px;
+}
+#i2{
+    width:71px;
+    height:76px;
+    position: absolute;
+    top:-2px;
+    left:-72px;
+}
+#i3{
+    width:71px;
+    height:102px;
+    position: absolute;
+    top:-4px;
+    left:-74px;
+}
+#i4{
+    width:71px;
+    height:91px;
+    position: absolute;
+    top:-3px;
+    left:-74px;
+}
